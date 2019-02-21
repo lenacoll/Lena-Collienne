@@ -1,1 +1,5 @@
-## Welcome to Lena's website
+---
+layout: page
+menu: true
+title: Welcome
+---
