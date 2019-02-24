@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /cv/
+menu:true
 title: CV
 ---
 
