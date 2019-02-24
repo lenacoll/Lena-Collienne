@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: home
+menu: true
 permalink: /home/
 title: Home
 ---
 
-## Home
+## Welcome
