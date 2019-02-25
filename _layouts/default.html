@@ -1,22 +1,11 @@
 <!doctype html>
-<html "{{ page.lang | default: site.lang | default: "en" }}">
+<html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <nav>
-      <a href="/home/">Home</a>
-      <a href="/cv/">CV</a>
-      <a href="/teaching/">Teaching</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      &copy; Lena Collienne
-    </footer>
+    {% include navigation.html %}
+    {{ content }}
   </body>
 </html>
