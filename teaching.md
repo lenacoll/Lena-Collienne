@@ -4,7 +4,6 @@ permalink: /teaching/
 title: Teaching
 ---
 
-## Teaching
 
 ### 2019
 
