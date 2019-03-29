@@ -6,7 +6,8 @@ title: CV
 
 
 
-*2018 - present* | PhD, [BioDS lab](https://biods.org/), University of Otago
-*2016 - 2018* | M.Sc. Biomathematics, University of Greifswald
-*November 2015 - Feburary 2016* | Internship, University of Auckland
-*2012 - 2015* | B.Sc. Biomathematics, University of Greifswald
+09/2018 - present | **PhD**, [BioDS lab](https://biods.org/), University of Otago
+06/2018 - 08/2018 | *Internship*, Max Planck Institute for Evoluitionary Biology
+04/2016 - 05/2018 | **M.Sc. Biomathematics**, University of Greifswald
+11/2015 - 02/2016 | *Internship*, University of Auckland
+10/2012 - 10/2015 | **B.Sc. Biomathematics**, University of Greifswald
