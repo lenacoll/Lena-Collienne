@@ -1,11 +1,14 @@
 <nav>
-  <h7 href="/" {% if page.url == "/" %}style="color: white;"{% endif %}>
-    Home
-</h7>
-  <h7 href="/cv/" {% if page.url == "/cv/" %}style="color: white;"{% endif %}>
-    CV
-</h7>
-  <h7 href="/teaching/" {% if page.url == "/teaching/" %}style="color: white;"{% endif %}>
-    Teaching
-</h7>
+    {% if page.url == "/" %} <a href="/" style="font-weight: 900 ; color: #212121; font-size: 32px"> Home </a>
+    {% else %} <a href="/" style="color: #212121;  font-size: 32px"> Home </a>
+    {% endif %}
+
+    {% if page.url == "/cv/" %} <a href="/cv/" style="font-weight: 900 ; color: #212121; font-size: 32px "> CV </a>
+    {% else %} <a href="/cv/" style="color: #212121;  font-size: 32px" > CV </a>
+    {% endif %}
+
+    {% if page.url == "/teaching/" %} <a href="/teaching/" style="font-weight: 900 ; color: #212121;  font-size: 32px"> Teaching </a>
+    {% else %} <a href="/teaching/" style="color: #212121;  font-size: 32px"> Teaching </a>
+    {% endif %}
+
 </nav>
