@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 ---
 
-
+##  Education
 
 09/2018 - present | **PhD**, [BioDS lab](https://biods.org/), University of Otago
 06/2018 - 08/2018 | *Internship*, Max Planck Institute for Evoluitionary Biology
