@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 ---
 
-##2020
+## 2020
 
 - April: [Department of Computer Science](https://www.otago.ac.nz/computer-science), University of Otago (NZ)
 Seminar talk [The complexity of computing nearest neighbour interchange distances between ranked phylogenetic trees](2020_CS_Otago.pdf)
@@ -12,7 +12,7 @@ Seminar talk [The complexity of computing nearest neighbour interchange distance
 - February: [24th Annual New Zealand Phylogenomics Meeting](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/research/bio/events/), Waiheke Island (NZ)
 Conference talk [Online Phylogenetic Inference](2020_phyloNZ_Waiheke.pdf)
 
-##2019
+## 2019
 
 - October: Postgraduate Symposium, [Department of Computer Science](https://www.otago.ac.nz/computer-science/index.html), University of Otago (NZ)
 Symposium talk [Online Algorithms in Computational Biology](2020_Postgrad_Symposium.pdf)
