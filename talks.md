@@ -7,7 +7,7 @@ title: Talks
 ## 2020
 
 - September: [Online Seminars on Algorithms and Complexity in Phylogenetics](https://simonelinz.wordpress.com/online-seminar/)  
-Seminar talk [Computing the Ranked Nearest Neighbour Interchange distance between ranked phylogenetic trees](https://www.youtube.com/watch?v=cvxnWkxFLas)
+Seminar talk [Computing the Ranked Nearest Neighbour Interchange distance between ranked phylogenetic trees](https://www.youtube.com/watch?v=cvxnWkxFLas) (youtube)
 
 - August: Postgraduate Symposium, [Department of Computer Science](https://www.otago.ac.nz/computer-science/index.html), University of Otago (NZ)  
 Symposium talk [The complexity of computing the RNNI distance between phylogenetic trees](2020_Postgrad_Symposium.pdf)
