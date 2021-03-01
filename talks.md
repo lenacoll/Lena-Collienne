@@ -4,6 +4,10 @@ permalink: /talks/
 title: Talks
 ---
 
+## 2021
+- February: [25th Annual New Zealand Phylogenomics Meeting](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/research/bio/events/akaroa-2021/), Akaroa (NZ)  
+Conference talk [The space of discrete coalescent trees](2021_phyloNZ_Akaroa.pdf)
+
 ## 2020
 
 - September: [Online Seminars on Algorithms and Complexity in Phylogenetics](https://simonelinz.wordpress.com/online-seminar/)  
