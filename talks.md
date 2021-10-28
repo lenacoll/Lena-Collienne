@@ -5,6 +5,10 @@ title: Talks
 ---
 
 ## 2021
+
+- March: [Department of Mathematics](https://www.maths.otago.ac.nz/), Otago (NZ)  
+Seminar talk [The space of Discrete Coalescent Trees](2021_maths_otago.pdf)
+
 - February: [25th Annual New Zealand Phylogenomics Meeting](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/research/bio/events/akaroa-2021/), Akaroa (NZ)  
 Conference talk [The space of discrete coalescent trees](2021_phyloNZ_Akaroa.pdf)
 
