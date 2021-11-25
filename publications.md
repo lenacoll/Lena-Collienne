@@ -6,9 +6,9 @@ title: Publications
 
 
 ## 2021
-[The geometry of the space of Discrete Coalescent Trees](https://arxiv.org/abs/2101.02751)<br>
+[Discrete coalescent trees](https://link.springer.com/article/10.1007/s00285-021-01685-0)<br>
   Lena Collienne, Kieran Elmes, Mareike Fischer, David Bryant, and Alex Gavryushkin<br>
-  *arXiv* 2021<br>
+  *Journal of Mathematical Biology* 2021<br>
 
 [Computing nearest neighbour interchange distances between ranked phylogenetic trees](https://doi.org/10.1007/s00285-021-01567-5)<br>
   Lena Collienne and Alex Gavryushkin<br>
