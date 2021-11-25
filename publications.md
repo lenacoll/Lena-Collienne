@@ -6,6 +6,11 @@ title: Publications
 
 
 ## 2021
+
+[Spaces of phylogenetic time trees](publications/phd_thesis.pdf)<br>
+  Lena Collienne<br>
+  *PhD thesis, University of Otago*
+
 [Discrete coalescent trees](https://link.springer.com/article/10.1007/s00285-021-01685-0)<br>
   Lena Collienne, Kieran Elmes, Mareike Fischer, David Bryant, and Alex Gavryushkin<br>
   *Journal of Mathematical Biology* 2021<br>
