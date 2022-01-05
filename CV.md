@@ -4,6 +4,10 @@ permalink: /cv/
 title: CV
 ---
 
+## Professional Experience
+01/2022 - | **Postdoctoral Research Fellow**, [BioDS lab](https://biods.org/), University of Otago/Canterbury
+
+
 ##  Education
 
 09/2018 - 08/2021 | **PhD Computer Science**, [BioDS lab](https://biods.org/), University of Otago
