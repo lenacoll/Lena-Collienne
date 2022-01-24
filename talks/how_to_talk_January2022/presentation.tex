@@ -1,0 +1,140 @@
+\documentclass{beamer}
+
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{todonotes}
+\usepackage{amsmath}
+\usepackage{caption}
+
+\usetheme{default}
+
+\graphicspath{{figures/}}
+
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{footline}{ %Frame number in bottom right corner
+  \hfill%
+  \usebeamercolor[fg]{page number in head/foot}%
+  \usebeamerfont{page number in head/foot}%
+  \setbeamertemplate{page number in head/foot}[framenumber]%
+  \usebeamertemplate*{page number in head/foot}\kern1em\vskip2pt%
+}
+
+\definecolor{myblue}{rgb}{0.2,0.2,0.7}
+
+\title{How to give a talk}
+
+\subtitle{}
+\author{Lena Collienne}
+
+\institute[University of Canterbury] % (optional, but mostly needed)
+{\includegraphics[scale=0.1]{UC_logo} \includegraphics[scale=0.1]{ou-logo.jpg}\\
+  Biological Data Science Lab\\
+  University of Otago/Canterbury
+}
+
+\date{31/01/2022}
+
+
+
+\begin{document}
+
+\begin{frame}
+    \maketitle
+    \thispagestyle{empty}
+\end{frame}
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+
+\section{Preparation}
+
+\begin{frame}{\insertsection}{\insertsubsection}
+    Start early
+\end{frame}
+% Preparation is everything.
+% Start preparing early and think about how to structure the talk -- you might come up with some good ideas. What needs to be in the talk, what can be left out?
+
+\begin{frame}{\insertsection}{\insertsubsection}
+    Talk to your supervisor
+    \pause
+    \begin{itemize}
+        \item Before preparing slides
+        \pause
+        \item After preparing slides
+    \end{itemize}
+\end{frame}
+% Talk to your supervisor about the talk, go together through the slides.
+
+
+\subsection{Important questions}
+\begin{frame}{\insertsection}{\insertsubsection}
+    \begin{itemize}
+        \item Who is in the audience?
+        %TODO Picture of people in audience
+        % Who is going to be in the audience? They should understand the talk! In your case: your fellow students.
+        \item What do you want to talk about?
+        % You won't be able to present everything in 5mins. Present the thing that you think is most important
+        % Also think about into how much detail you want to go
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsection}{\insertsubsection}
+    Practise your talk!
+\end{frame}
+% Practise your talk -- in front of others, or alone. This way you get an idea of the timing and which words you want to use. Especially if more than one person is presenting (otherwise it will be a huge mess)
+
+
+\section{Slides}
+% Don't waste your time on an outline slide
+% Slides should have numbers, in case someone has a question about the talk afterwards
+% Don't put too much stuff on the slides!
+% Don't put anything on a slide that you don't talk about!
+% Figures are better than words!
+% No tables! Try to visualise the numbers -- boxplots, histograms, etc.
+% When you have plots: What is on the x-axis, what is on the y-axis? (This is REALLY important!)
+% Toy examples are great!
+% Try to avoid formulas. If you need them, either explain them, or (if too complicated), make sure it's possible to understand the rest without the formula
+% If you need words: Don't make everything appear at once.
+
+\subsection{Outline}
+\begin{frame}{\insertsection}{\insertsubsection}
+    No. Just don't.
+
+    \pause
+    Exception: Your talk is long
+\end{frame}
+
+
+\subsection{Layout}
+\begin{frame}{\insertsection}{\insertsubsection}
+    \begin{itemize}
+        \item Slide numbers
+        \item Avoid text
+        % Text includes: formulas, tables unless they are absolutely necessary
+        % Instead: boxplots, histograms, toy examples (maybe use example of big COVID tree (or Jirka's cancer tree) vs small toy example tree)
+        % If you need text: make it appear one point after the other, not all at once. Also avoid long sentences
+        \item Only put things on the slides that you are going to talk about
+        \item Labels of plots should be readable
+    \end{itemize}
+\end{frame}
+
+\section{Presentation}
+% Speak slowly. Really slowly. And breath. Don't forget breathing.
+% Maybe have some water ready (especially for long talks)
+% Do NOT look at the presentation. Look into the audience. If you can't, look at the wall behind them just above their heads.
+% Use a presenter thingy if it's possible. They are great. And you have something to do with your hands -- don't fidget, though.
+% Try to be open. Smile! Don't be grumpy. Your research is cool!
+\begin{frame}{\insertsection}{\insertsubsection}
+    \begin{itemize}
+        \item Relax
+        \item Breath
+        \item Smile
+        \item Speak to the audience, not the wall
+    \end{itemize}
+\end{frame}
+
+
+\end{document}
