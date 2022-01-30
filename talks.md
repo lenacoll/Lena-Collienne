@@ -4,6 +4,12 @@ permalink: /talks/
 title: Talks
 ---
 
+
+## 2022
+
+- January: [School of Mathematics and Statistics](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/), Christchurch, NZ  
+Seminar talk [How to give a (good) talk](2022_how_to_talk_UC.pdf)
+
 ## 2021
 
 - November: [Phylomania 2021](https://www.abacbs.org/conference2021/phylomania), Australia  
