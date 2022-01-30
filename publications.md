@@ -7,7 +7,7 @@ title: Publications
 
 ## 2021
 
-[Spaces of phylogenetic time trees](publications/phd_thesis.pdf)<br>
+[Spaces of phylogenetic time trees](https://ourarchive.otago.ac.nz/bitstream/handle/10523/12606/CollienneLena2021PhD.pdf?sequence=1&isAllowed=y)<br>
   Lena Collienne<br>
   *PhD thesis, University of Otago*
 
