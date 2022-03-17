@@ -18,4 +18,4 @@ title: CV
 
 ---
 
-[Full CV](cv.pdf)
+[Full CV](CV/cv.pdf)
