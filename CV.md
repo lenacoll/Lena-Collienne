@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink:
+permalink: /cv/
 title: CV
 ---
 
@@ -18,4 +18,4 @@ title: CV
 
 ---
 
-[Full CV](CV/cv.pdf)
+[Full CV](../CV/cv.pdf)
