@@ -45,3 +45,8 @@ Seminar talk [The Ranked Nearest Neighbour Interchange space of phylogenetic tre
 
 - February: [Deco 2019, The 23rd Annual New Zealand Phylogenomics Meeting](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/research/bio/events/deco-2019/), Napier (NZ)  
 Conference talk [The Ranked Nearest Neighbour Interchange space of phylogenetic trees](2019_phyloNZ_Napier.pdf)
+
+## 2017
+
+- August: [Computational Evolution Group](https://bsse.ethz.ch/cbg), ETH Zurich (Switzerland)  
+Invited Seminar talk [Discrete time-trees](2017_eth.pdf)
