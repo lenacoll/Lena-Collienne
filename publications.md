@@ -4,6 +4,11 @@ permalink: /publications/
 title: Publications
 ---
 
+## 2022
+[Online Bayesian Analysis with BEAST 2](https://doi.org/10.1101/2022.05.03.490538)  
+Remco Bouckaert, Lena Collienne, and Alex Gavryushkin<br>
+  *bioRxiv* 2022<br>
+
 
 ## 2021
 
