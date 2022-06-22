@@ -5,7 +5,7 @@ title: CV
 ---
 
 ## Professional Experience
-01/2022 - **Postdoctoral Research Fellow**, [BioDS lab](https://biods.org/), University of Otago/Canterbury
+01/2022 - now **Postdoctoral Research Fellow**, [BioDS lab](https://biods.org/), University of Otago/Canterbury
 
 
 ##  Education
