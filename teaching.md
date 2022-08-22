@@ -6,8 +6,7 @@ title: Teaching
 
 ## 2022
 
-In the Semester 1 I am teaching [STAT211](https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=STAT211&occurrence=22S1(C)&year=2022) at the School of Mathematics and Statistics, University of Canterbury.  
-All course material will be available through [LEARN](https://learn.canterbury.ac.nz/login/index.php).
+In the Semester 1 I taught [STAT211](https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=STAT211&occurrence=22S1(C)&year=2022) at the School of Mathematics and Statistics, University of Canterbury.
 
 
 ## 2019
