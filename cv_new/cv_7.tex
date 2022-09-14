@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{todonotes}
+\usepackage[skins]{tcolorbox}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Lena} % Your first name
+\familyname{Collienne} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{123 Broadway}{City, State 12345}
+% \mobile{(000) 111 1111}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+% \email{lena@lenacoll.de}
+% \homepage{lenacoll.de}{lenacoll.de} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+\makecvtitle % Print the CV title
+
+\vspace{-2cm}
+\tcbset{size=small, sharp corners, colframe=black!0!white, width=5.3cm,box align=top,nobeforeafter}
+\begin{tcolorbox}
+    Email: \href{mailto:lena@lenacoll.de}{lena@lenacoll.de}\\
+    Homepage: \href{https://www.lenacoll.de}{lenacoll.de}\\
+    GitHub: \href{https://github.com/lenacoll}{github.com/lenacoll}
+\end{tcolorbox}
+\vspace{1cm}
+
+%----------------------------------------------------------------------------------------
+%	MAJOR RESEARCH PROJECT
+%----------------------------------------------------------------------------------------
+
+\section{Research}
+
+\todo[inline]{Maybe just one point about current research/general research, and then list the other ones in Education/Work experience (without any specifics?)}
+\cventry{}{Postdoctoral Research}{University of Canterbury}{Statistical Methods for Phylogenetic Time Trees}{}{}
+
+\cventry{}{PhD Research}{University of Otago}{Spaces of Phylogenetic Time Trees}{}{Introducing and analysing a space of phylogenetic time trees (evolutionary histories), focusing on discrete time trees.
+This includes establishing an algorithm for computing shortest paths between trees in the resulting tree space and analysing its properties.}
+
+\cventry{}{M.Sc. Research}{University of Greifswald}{The ranked Nearest Neighbour Interchange space of phylogenetic trees}{}{Establishing a tree space of ranked phylogenetic trees and investigating its properties.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\todo[inline]{Add GPA?}
+\cventry{2018--2021}{Doctor of Philosophy}{University of Otago}{Dunedin (New Zeland)}{}{}  % Arguments not required can be left empty
+\cventry{2016--2018}{Master of Science}{University of Greifswald}{Greifswald (Germany)}{}{}
+\cventry{2012--2015}{Bachelor of Science}{University of Greifswald}{Greifswald (Germany)}{}{}
+
+% \section{PhD Thesis}
+
+% \cvitem{Title}{\emph{Spaces of Phylogenetic Time Trees}}
+% \cvitem{Supervisors}{Associate Professor Alex Gavryushkin \& Professor David Bryant}
+% \cvitem{Description}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+
+\cventry{2022}{Postdoctoral Research Fellow}{University of Canterbury}{BioDS lab}{Christchurch (New Zealand)}{}
+
+%------------------------------------------------
+\todo[inline]{How do I add this?}
+\subsection{Other}
+
+\cventry{2015--2016}{Summer Research Project}{University of Auckland}{Auckland (New Zealand)}{}{Computational complexity of space of phylogenetic time trees}
+
+
+\subsection{Teaching}
+\cvitem{2022}{Lecturer STAT211: Random Processes (University of Canterbury)}
+\cvitem{2019}{Tutor COSC341: Theory of Computing (University of Otago)}
+
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Awards}
+
+\cvitem{2021}{\textit{Exceptional PhD thesis} (Division of Science, University of Otago)}
+\cvitem{2021}{\textit{Best Student Talk} (Phylomania Conference 2021)}
+\cvitem{2018--2021}{\textit{University of Otago Doctoral Scholarship}}
+\cvitem{2018}{\textit{Externally Funded Research Grant} (Max Planck Institute Pl\"on)}
+\cvitem{2015}{\textit{Summer Research Scholarship} (University of Auckland)}
+\cvitem{2015}{\textit{PROMOS Scholarship} (University of Greifswald)}
+\cvitem{2014--2015}{\textit{Deutschlandstipendium} (Alfried Krupp von Bohlen und Halbach Foundation/Federal Government of Germany)}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\todo[inline]{I somehow doubt I'll need this section}
+\section{Computer skills}
+
+\cvitem{Basic}{\textsc{java}, \textsc{C++}, \textsc{Perl}}
+\cvitem{Intermediate}{\textsc{C}, \textsc{R}, \textsc{Python}}
+\cvitem{Advanced}{\LaTeX}
+
+%----------------------------------------------------------------------------------------
+%	Additional Activities
+%----------------------------------------------------------------------------------------
+
+\section{Additional Activities}
+
+\cvitem{2021}{President of the Otago Computer Science Society (University of Otgao)}
+\cvitem{2019--2021}{Member of the Postgraduate Committee (Department of Computer Science, University of Otago)}
+\cvitem{2019--2021}{Organising the annual Postgraduate Symposium (Department of Computer Science, University of Otago)}
+\cvitem{2019--2021}{Member of Student Council (Institute for Mathematics and Computer Science, University of Greifswald)}
+
+%----------------------------------------------------------------------------------------
+%	Talks
+%----------------------------------------------------------------------------------------
+
+\section{Talks}
+
+\subsection{Conference}
+
+
+\cvitem{2021}{\textit{Distances between phylogenetic time trees}, Phylomania}
+\cvitem{2021}{\textit{The space of discrete coalescent trees}, New Zealand Phylogenomics Meeting}
+\cvitem{2020}{\textit{Online Algorithms in Computational Biology}, New Zealand Phylogenomics Meeting}
+\cvitem{2019}{\textit{The Ranked Nearest Neighbour Interchange Space of Phylogenetic Trees}, New Zealand Phylogenomics Meeting}
+
+\subsection{Invited Seminars}
+\cvitem{2021}{\textit{The Space of Discrete Coalescent Trees} (Department of Mathematics, University of Otago)}
+\cvitem{2020}{\textit{Computing the Ranked Nearest Neighbour Interchange distance between ranked phylogenetic trees}, Online Seminars on Algorithms and Complexity in Phylogenetics}
+\cvitem{2019}{\textit{The Ranked Nearest Neighbour Interchange space of phylogenetic trees}, Max Planck Institute for Mathematics in the Science}
+\cvitem{2017}{\textit{Discrete time trees}, Computational Evolution Group, ETH Zurich}
+
+
+\subsection{Other}
+\cvitem{2022}{\textit{How to give a (good) talk}, School of Mathematics and Statistics, University of Canterbury}
+\cvitem{2020}{\textit{The complexity of computing the RNNI distance between phylogenetic trees}, Postgraduate Symposium, Computer Science, University of Otago}
+\cvitem{2020}{\textit{The complexity of computing nearest neighbour interchange distances between ranked phylogenetic trees}, Seminar of Departments of Computer Science and Information Science, University of Otago}
+\cvitem{2019}{\textit{Online Algorithms in Computational Biology}, Postgraduate Symposium, Computer Science, University of Otago}
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cvitem{}{Bouckaert, R., \textbf{Collienne, L.} \& Gavryushkin, A. (2022). Online Bayesian Analysis with BEAST2. \textit{BioRxiv}.}
+
+\cvitem{}{\textbf{Collienne, L.} (2021). Spaces of phylogenetic time trees (Thesis, Doctor of Philosophy). University of Otago. Retrieved from \url{http://hdl.handle.net/10523/12606}}
+
+\todo[inline]{Google Scholar thinks the arxiv version of this paper is a different paper -- should I add it here?}
+\cvitem{}{\textbf{Collienne, L.}, Elmes, K., Fischer, M., Bryant, D. \& Gavryushkin, A. (2021). Discrete Coalescent Trees. \textit{Journal of Mathematical Biology 83.5, p. 60. issn: 1432-1416.}}
+
+\cvitem{}{\textbf{Collienne, L.} \& Gavryushkin, A. (2021). Computing nearest neighbour interchange distances between ranked phylogenetic trees. \textit{Journal of Mathematical Biology 82.1, p. 8. issn: 1432-1416}.}
+
+\cvitem{}{\textbf{Collienne, L.}, Elmes, K., Fischer, M., Bryant, D., \&
+Gavryushkin, A. (2019). Geometry of Ranked Nearest Neighbour Interchange Space
+of Phylogenetic Trees. \textit{BioRxiv}.}
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
