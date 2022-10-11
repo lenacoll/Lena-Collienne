@@ -1,61 +1,102 @@
-% RUN WITH XELATEX!
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Freeman Curriculum Vitae
-% XeLaTeX Template
-% Version 2.0 (19/3/2018)
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
 %
-% This template originates from:
+% This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% Authors:
-% Vel (vel@LaTeXTemplates.com)
-% Alessandro Plasmati
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
-%!TEX program = xelatex
-% NOTICE: This template must be compiled with XeLaTeX, the line above should
-% ensure this happens automatically but if it doesn't you will need to specify 
-% XeLaTeX as the engine in your editor or script
-% 
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\input{structure.tex} % Include the file that specifies the document structure
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{geometry}
-\usepackage{biblatex}
-\bibliography{cv}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{todonotes}
+\usepackage[skins]{tcolorbox}
+\usepackage{fontawesome5}
 
-\newcommand{\email}[1]{{\href{mailto:#1}{#1}}}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
-% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
-% Example right footer:
-%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Lena} % Your first name
+\familyname{Collienne} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{123 Broadway}{City, State 12345}
+% \mobile{(000) 111 1111}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+% \email{lena@lenacoll.de}
+% \homepage{lenacoll.de}{lenacoll.de} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
-\begin{paracol}{2} % Begin the multi-column environment
-
 %----------------------------------------------------------------------------------------
-%	NAME AND CURRICULUM VITAE TEXT
+%	COVER LETTER
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
-	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
-	\centering % Centre text
-	{\sffamily\Huge Lena Collienne}\\\medskip % Your name
-	{\Huge\color{headings}\cvtextfont Curriculum Vitae}
-}
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+\makecvtitle % Print the CV title
+
+\vspace{-2cm}
+\tcbset{size=small, sharp corners, colframe=black!50!white, width=4.2cm,box align=top,nobeforeafter}
+\begin{tcolorbox}
+    \faIcon{envelope} \href{mailto:lena@lenacoll.de}{lena@lenacoll.de}\\
+    \faIcon{desktop} \href{https://www.lenacoll.de}{lenacoll.de}\\
+    \faIcon{github} \href{https://github.com/lenacoll}{github.com/lenacoll}
+\end{tcolorbox}
+\vspace{0.5cm}
 
 %----------------------------------------------------------------------------------------
 %	MAJOR RESEARCH PROJECT
@@ -63,473 +104,114 @@
 
 \section{Research}
 
-\subsection*{Postdoctoral Research}
-{\raggedright\textbf{``Statistical Methods for Phylogenetic Time Trees''}\\\medskip}
+\cventry{}{Postdoctoral Research}{University of Canterbury}{}{}{Extending subtree prune and regraft operations to ranked phylogenetic trees and investigating thereby introduced distance measures for phylogenetic time trees.}
 
-Analysing distributions of trees in tree spaces of phylogenetic time trees and developing statistical methods for analysing those.
+\cventry{}{PhD Research}{University of Otago}{}{}{Introducing and analysing spaces of phylogenetic time trees based on nearest neighbour interchange tree rearrangements.}
 
-\subsection*{PhD Research}
-{\raggedright\textbf{``Spaces of Phylogenetic Time Trees''}\\\medskip}
-
-Introducing a new tree rearrangement based space of phylogenetic time trees (evolutionary histories), focusing on discrete time trees.
-This includes establishing an algorithm for computing shortest paths between trees in the resulting tree space and analysing its properties.
-
-
-\subsection*{M.Sc. Research}
-{\raggedright\textbf{``The ranked Nearest Neighbour Interchange space of phylogenetic trees''}\\\medskip}
-
-Establishing a tree space of ranked phylogenetic trees and investigating its properties.
-
-\medskip % Extra whitespace before the next section
-
-\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+\cventry{}{M.Sc. Research}{University of Greifswald}{}{}{Establishing properties of ranked nearest neighbour interchange moves between ranked phylogenetic trees}
 
 %----------------------------------------------------------------------------------------
-% %	REFERENCES
-% %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-% \section{References}
+\section{Education}
 
-% %\textit{References available on request}
+\cventry{2018--2021}{Doctor of Philosophy}{Computer Science}{University of Otago (NZ)}{}{}  % Arguments not required can be left empty
+\cventry{2016--2018}{Master of Science}{Biomathematics}{University of Greifswald (GER)}{}{}
+\cventry{2012--2015}{Bachelor of Science}{Biomathematics}{University of Greifswald (GER)}{}{}{}
 
-% %------------------------------------------------
+% \section{PhD Thesis}
 
-% % Example \tableentry{} command to add another line:
-
-% %\tableentry{Heading}{Content}{spaceafter}
-
-% % All 3 parameters must be supplied but any can be empty if you don't need them
-% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
-
-% %------------------------------------------------
-
-% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
-	
-% 	\tableentry{}{\textbf{Dr. Alex Gavryushkin}}{spaceafter}
-% 	\tableentry{Position}{Senior Lecturer}{}
-% 	\tableentry{Employer}{\href{https://www.otago.ac.nz/computer-science/index.html}{Department of Computer Science}}{}
-% 	\tableentry{}{\href{https://www.otago.ac.nz/}{\textit{University of Otago}}}{spaceafter}
-% 	\tableentry{Email}{\email{alex@biods.org}}{}
-
-% 	\tableentry{}{}{} % Creates some additional whitespace between the references
-% 	\tableentry{}{}{} % Creates some additional whitespace between the references
-% 	\tableentry{}{}{} % Creates some additional whitespace between the references
-
-% 	\tableentry{}{\textbf{Dr. Zhiyi Huang}}{spaceafter}
-% 	\tableentry{Position}{Associate Professor}{}
-% 	\tableentry{Employer}{\href{https://www.otago.ac.nz/computer-science/index.html}{Department of Computer Science}}{}
-% 	\tableentry{}{\href{https://www.otago.ac.nz/}{\textit{University of Otago}}}{spaceafter}
-% 	\tableentry{Email}{\email{hzy@cs.otago.ac.nz}}{}
-
-% 	\tableentry{}{}{} % Creates some additional whitespace between the references
-
-% 	\tableentry{}{\textbf{Dr. Matthieu Vignes}}{spaceafter}
-% 	\tableentry{Position}{Senior Lecturer}{}
-% 	\tableentry{Employer}{\href{https://www.otago.ac.nz/computer-science/index.html}{School of Fundamental Sciences}}{}
-% 	\tableentry{}{\href{https://www.massey.ac.nz/}{\textit{Massey University}}}{spaceafter}
-% 	\tableentry{Email}{\email{M.Vignes@massey.ac.nz}}{}
-% 	%------------------------------------------------
-	
-% \end{supertabular}
-
-% \medskip % Extra whitespace before the next section
+% \cvitem{Title}{\emph{Spaces of Phylogenetic Time Trees}}
+% \cvitem{Supervisors}{Associate Professor Alex Gavryushkin \& Professor David Bryant}
+% \cvitem{Description}{}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE
+%	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Work Experience}
 
-% Blank \workposition command to add another job:
 
-%\workposition{} % Duration
-%{} % FT/PT (full time or part time)
-%{} % Employer
-%{} % Job title
-%{} % Description
-
-% All 5 parameters must be supplied but any can be empty if you don't need them
-
-%------------------------------------------------
-\workposition{2022} % Duration
-{FT} % FT/PT (full time or part time)
-{University of Otago} % Employer
-{Postdoctoral Research Fellow} % Job title
-{BioDS lab (University of Canterbury)} % Description
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section{Education} 
-
-% Blank \educationentry{} command to add another degree:
-
-%\educationentry{} % Duration
-%{} % Degree
-%{} % Honours, achievements or distinctions (e.g. first class honours)
-%{} % Department
-%{} % Institution
-
-% All 5 parameters must be supplied but any can be empty if you don't need them
-
-%------------------------------------------------
-
-\begin{supertabular}{rp{7cm}} % Start a table with two columns, the table will ensure everything is aligned
-
-	\educationentry{2018 - 2021}
-	{Doctor of Philosophy}
-	{}
-	{Computer Science}
-	{University of Otago (New Zealand)}
-
-	\educationentry{2016 - 2018}
-	{Master of Science}
-	{}
-	{Biomathematics}
-	{University of Greifswald (Germany)}
-
-	\educationentry{2012 - 2015} % Duration
-	{Bachelor of Science} % Degree
-	{} % Honours, achievements or distinctions (e.g. first class honours)
-	{Biomathematics} % Department
-	{University of Greifswald (Germany)} % Institution
-
-	
-	%------------------------------------------------
-
-\end{supertabular}
-%----------------------------------------------------------------------------------------
+\cventry{2022}{Postdoctoral Research Fellow}{BioDS lab, School of Mathematics and Statistics}{University of Canterbury (NZ)}{}{}
+\cventry{2022}{Lecturer}{STAT211: Random Processes}{University of Canterbury (NZ)}{}{}
+\cventry{2019}{Tutor}{COSC341: Theory of Computing}{University of Otago (NZ)}{}{}
+\cventry{2015--2016}{Summer Research Project}{University of Auckland (NZ)}{}{}{}
 
 
-%----------------------------------------------------------------------------------------
-%	SKILLS DESCRIPTION
-%----------------------------------------------------------------------------------------
-
-\section{Skills} 
-
-% Example \tableentry{} command to add another line:
-
-%\tableentry{Heading}{Content}{spaceafter}
-
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
-
-%------------------------------------------------
-
-\begin{supertabular}{rp{7cm}} % Start a table with two columns, the table will ensure everything is aligned
-	
-	%------------------------------------------------
-	
-	%\tableentry{Beginner}{Java, MS DOS}{spaceafter}
-	\tableentry{Beginner}{Java, C++, Perl}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	\tableentry{Intermediate}{C, R}{spaceafter}
-	%\tableentry{Intermediate}{Javascript, Python, HTML, CSS,}{}
-	%\tableentry{}{Microsoft Windows}{}
-	%\tableentry{}{Computer Hardware \& Support}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	\tableentry{Expert}{Python, \LaTeX}{spaceafter}
-	
-	%------------------------------------------------
-	
-\end{supertabular}
-
-
-
-
-
-\switchcolumn % Switch to the next paracol column
-
-%----------------------------------------------------------------------------------------
-%	COLOURED CONTACT DETAILS BOX
-%----------------------------------------------------------------------------------------
-
-\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
-	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
-	\colorbox{shade}{ % Create the coloured box
-		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-			%\raisebox{-1pt}{\faHome} & P.O. Box 3985, Black Mesa Drive, NM 87545 \\ % Address
-			%\raisebox{-1pt}{\faPhone} & +1 (800) 786-1410 \\ % Phone number
-			\raisebox{0pt}{\small\faEnvelope} & \email{lena@lenacoll.de} \\ % Email address
-			\raisebox{-1pt}{\small\faDesktop} & \href{https://www.lenacoll.de}{lenacoll.de} \\ % Website
-			\raisebox{-1pt}{\faGithub} & \href{https://github.com/lenacoll}{https://github.com/lenacoll} \\ % GitHub profile
-			% See fontawesome.pdf in the fonts folder for all icons you can use
-		\end{supertabular}
-	}
-}
-
-
-
-\section{Teaching}
-
-\workposition{Semester 1 2022} % Duration
-{PT} % FT/PT (full time or part time)
-{University of Canterbury} % Employer
-{STAT211 lecturer} % Job title
-{Lecturer for STAT211: Random Processes	
-} % Description
-
-\workposition{Semester 1 2019} % Duration
-{PT} % FT/PT (full time or part time)
-{University of Otago} % Employer
-{COSC341 Tutor} % Job title
-{Tutor and guest lecturer for COSC341: Theory of Computing	
-} % Description
 
 
 %------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Awards}
+
+\cvitem{2021}{\textit{Exceptional PhD thesis} (Division of Science, University of Otago)}
+\cvitem{2018--2021}{\textit{University of Otago Doctoral Scholarship}}
+\cvitem{2018}{\textit{Externally Funded Research Grant} (Max Planck Institute Pl\"on)}
+\cvitem{2015}{\textit{Summer Research Scholarship} (University of Auckland)}
+\cvitem{2015}{\textit{PROMOS Travel Scholarship} (University of Greifswald)}
+\cvitem{2014--2015}{\textit{Deutschlandstipendium} (Alfried Krupp von Bohlen und Halbach Foundation/Federal Government of Germany)}
 
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS
+%	Additional Activities
 %----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS
-%----------------------------------------------------------------------------------------
-
-
-
-
-%\section{Skills}
-%
-%% Example \longformdescription{} command to add another section:
-%
-%%\longformdescription{Heading}{Description}
-%
-%%------------------------------------------------
-%
-%\longformdescription{Goal Oriented}{I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.}
-%
-%\longformdescription{Physical Dexterity}{Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.}
-%
-%\longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}
-%----------------------------------------------------------------------------------------
-%	AWARDS
-%----------------------------------------------------------------------------------------
-
-\section{Awards and Scholarships}
-
-% Example \tableentry{} command to add another line:
-
-%\tableentry{Heading}{Content}{spaceafter}
-
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
-
-%------------------------------------------------
-
-\begin{supertabular}{rp{7cm}} % Start a table with two columns, the table will ensure everything is aligned
-	
-	\tableentry{2021}{\textbf{Exceptional PhD thesis}}{}
-	\tableentry{}{\textit{University of Otago}}{spaceafter}
-
-	\tableentry{2018-2021}{\textbf{University of Otago Doctoral Scholarship}}{}
-	\tableentry{}{\textit{University of Otago}}{spaceafter}
-
-	\tableentry{2018}{\textbf{Externally Funded Research Grant}}{}
-	\tableentry{}{\textit{funded by Max Planck Institute Pl\"on}}{spaceafter}
-
-	\tableentry{2015}{\textbf{Summer Research Scholarship}}{}
-	\tableentry{}{\textit{University of Auckland}}{spaceafter}
-
-	\tableentry{2015}{\textbf{PROMOS Scholarship}}{}
-	\tableentry{}{\textit{University of Greifswald}}{spaceafter}
-
-	\tableentry{2014-2015}{\textbf{Deutschlandstipendium}}{}
-	\tableentry{}{\textit{funded by Alfried Krupp von Bohlen}}{}
-	\tableentry{}{\textit{und Halbach Foundation and Federal}}{}
-	\tableentry{}{\textit{Government of Germany}}{spaceafter}
-
-	%------------------------------------------------
-	
-	%\tableentry{1985}{\textbf{Faculty of Science Masters Scholarship}}{}
-	%\tableentry{}{\textit{Massachusetts Institute of Technology}}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	%\tableentry{1983}{\textbf{Top Achiever Award -- Physics}}{}
-	%\tableentry{}{\textit{The University of Washington}}{spaceafter}
-	
-	%------------------------------------------------
-	
-\end{supertabular}
-
-% \switchcolumn % Switch to the next paracol column
-
 
 \section{Additional Activities}
 
-% Example \tableentry{} command to add another line:
-
-%\tableentry{Heading}{Content}{spaceafter}
-
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
-
-%------------------------------------------------
-
-\begin{supertabular}{rp{6cm}} % Start a table with two columns, the table will ensure everything is aligned
-	
-	\tableentry{2021}{President of the Otago Computer Science Society, University of Otago}{spaceafter}
-
-	\tableentry{2019-2021}{Member of the Postgraduate Committee in the Department of Computer Science, University of Otago}{spaceafter}
-
-	\tableentry{2019-2021}{Organising the annual Postgraduate Student Symposium of the Departments of Computer Science and Information Science, University of Otago}{spaceafter}
-
-	\tableentry{2014-2017}{Member of the student council, Institute of Mathematics and Computer Science, University of Greifswald}{spaceafter}
-
-	
-\end{supertabular}
+\cvitem{2021}{President of the Otago Computer Science Society (University of Otgao)}
+\cvitem{2019--2021}{Member of the Postgraduate Committee (Department of Computer Science, University of Otago)}
+\cvitem{2019--2021}{Organising the annual Postgraduate Symposium (Department of Computer Science, University of Otago)}
+\cvitem{2019--2021}{Member of Student Council (Institute for Mathematics and Computer Science, University of Greifswald)}
 
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
+%	Talks
 %----------------------------------------------------------------------------------------
-
-
-
-\end{paracol}
-\newpage
-\begin{paracol}{1} % Begin the multi-column environment
-
-
-% \switchcolumn
-
-\section{Publications}
-
-% Example \longformdescription{} command to add another publication:
-
-%\longformpublication{Reference (format this manually as desired)}
-
-%------------------------------------------------
-
-
-\longformpublication{\textbf{Collienne, L.}, Elmes, K., Fischer, M., Bryant, D. \& Gavryushkin, A. (2021). Discrete Coalescent Trees. \textit{Journal of Mathematical Biology 83.5, p. 60. issn: 1432-1416.}}
-
-\longformpublication{\textbf{Collienne, L.} \& Gavryushkin, A. (2021). Computing nearest neighbour interchange distances between ranked phylogenetic trees. \textit{Journal of Mathematical Biology 82.1, p. 8. issn: 1432-1416}.}
-
-\longformpublication{\textbf{Collienne, L.}, Elmes, K., Fischer, M., Bryant, D., \&
-Gavryushkin, A. (2019). Geometry of Ranked Nearest Neighbour Interchange Space
-of Phylogenetic Trees. \textit{BioRxiv}.}
-
-%\longformpublication{\textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.}
-%
-%\longformpublication{Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.}
-
-%------------------------------------------------
-
-% As an alternative to a long-form publication list, you can create a shorter summary using only DOI values and years.
-
-% Example \doipublication{} command to add another publication:
-
-%\doipublication{Year}{DOI}{firstauthor}{spaceafter}
-
-% All four parameters are required (can be empty though)
-% A value of "firstauthor" in the third parameter will print the DOI in bold
-% A "spaceafter" value in the fourth parameter will add some vertical space -- this is to be used between years
-
-%------------------------------------------------
-
-% \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
-	
-	%\doipublication{2020}{10.1101/2020.08.24.264713}{firstauthor}{spaceafter}
-	
-
-	%------------------------------------------------
-	
-	%\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	%\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
-	%\doipublication{1986}{10.1139/v86-297}{}{}
-	
-	%%------------------------------------------------
-	
-	%\doipublication{1986}{10.1103/PhysRevA.34.2329}{}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	% & \textit{First author publications in} \textbf{bold}\\
-	
-	%------------------------------------------------
-	
-% \end{supertabular}
-
-\medskip % Extra whitespace before the next section
-
-%----------------------------------------------------------------------------------------
-
 
 \section{Talks}
 
-% Example \tableentry{} command to add another line:
+\subsection{Conference Talks}
 
-%\tableentry{Heading}{Content}{spaceafter}
+\cventry{2021}{Phylomania 2021 \textnormal{(Best Student Talk Award)}}{Online}{}{}{Distances between Phylogenetic Time Trees}
+\cventry{2021}{NZ Phylogenomics Meeting}{Akaroa (NZ)}{}{}{The Space of Discrete Coalescent Trees}
+\cventry{2020}{NZ Phylogenomics Meeting}{Waiheke (NZ)}{}{}{Online Algorithms in Computational Biology}
+\cventry{2019}{NZ Phylogenomics Meeting}{Napier (NZ)}{}{}{The Ranked Nearest Neighbour Interchange Space of Phylogenetic Trees}
 
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+\subsection{Invited Seminar Talks}
+\cventry{2021}{Departmant of Mathematics}{University of Otago (NZ)}{}{}{The Space of Discrete Coalescent Trees}
+\cventry{2020}{Online Seminars on Algorithms and Complexity in Phylogenetics}{Online}{}{}{Computing the Ranked Nearest Neighbour Interchange Distance between Ranked Phylogenetic Trees}
+\cventry{2019}{Max Planck Instityte for Mathematics in the Science}{Leipzig (GER)}{}{}{The Ranked Nearest Neighbour Interchange space of phylogenetic trees}
+\cventry{2017}{Computational Evolution Group}{ETH Zurich (CH)}{}{}{Discrete Time Trees}
 
-%------------------------------------------------
 
-\begin{supertabular}{rp{15cm}} % Start a table with two columns, the table will ensure everything is aligned
+\subsection{Other}
+\cventry{2022}{School of Mathematics and Statistics}{University of Canterbury (NZ)}{}{}{How to Give a (Good) Talk}
+\cventry{2020}{Postgraduate Symposium \textnormal{(1st place Best Presentation Award)}}{University of Otago (NZ)}{}{}{The Complexity of Computing the RNNI Distance between Phylogenetic Trees}
+\cventry{2020}{Seminar of Departments of Computer Science and Information Science}{University of Otago (NZ)}{}{}{The Complexity of Computing Nearest Neighbour Interchange Distances between Ranked Phylogenetic Trees}
+\cventry{2019}{Postgraduate Symposium \textnormal{(2nd place Best Presentation Award)}}{University of Otago (NZ)}{}{}{Online Algorithms in Computational Biology}
 
-	\tableentry{Conference}{``Distances between phylogenetic time trees''}{}
-	\tableentry{}{\textit{Phylomania 2021}}{spaceafter}
-
-	\tableentry{Conference}{``The space of discrete coalescent trees''}{}
-	\tableentry{}{\textit{New Zealand Phylogenomics Meeting 2021}}{spaceafter}
-
-	\tableentry{}{``The complexity of computing the RNNI distance between phylogenetic trees''}{}
-	\tableentry{}{\textit{Postgraduate Symposium, Department of Computer Science, University of Otago, August 2020}}{spaceafter}
-
-	\tableentry{}{``Online Algorithms in Computational Biology''}{}
-	\tableentry{}{\textit{New Zealand Phylogenomics Meeting 2020}}{spaceafter}
-
-	\tableentry{}{``Online Algorithms in Computational Biology''}{}
-	\tableentry{}{\textit{Postgraduate Symposium, Department of Computer Science, University of Otago, October 2019}}{spaceafter}
-	
-	\tableentry{}{``The Ranked Nearest Neigbour Interchange space of phylogenetic trees''}{}
-	\tableentry{}{\textit{New Zealand Phylogenomics Meeting 2019}}{spaceafter}
-
-	\tableentry{Seminar}{``The Space of Discrete Coalescent Trees''}{}
-	\tableentry{}{\textit{Department of Mathematics, University of Otago, March 2021}}{spaceafter}
-
-	\tableentry{}{``Computing the Ranked Nearest Neighbour Interchange distance between ranked phylogenetic trees''}{}
-	\tableentry{}{\textit{Online Seminars on Algorithms and Complexity in Phylogenetics September 2020}}{spaceafter}
-
-	\tableentry{}{``The complexity of computing nearest neighbour interchange distances between ranked phylogenetic trees''}{}
-	\tableentry{}{\textit{Department of Computer Science, University of Otago, May 2020}}{spaceafter}
-
-	\tableentry{}{``The Ranked Nearest Neigbour Interchange space of phylogenetic trees''}{}
-	\tableentry{}{\textit{Max Planck Institute for Mathematics in the Science, July 2019}}{spaceafter}
-
-	\tableentry{}{``Discrete time-trees''}{}
-	\tableentry{}{\textit{Computational Evolution Group, ETH Zurich, August 2017}}{spaceafter}
-
-	%------------------------------------------------
-	
-	%\tableentry{Conferences}{Oral Presentation at the Annual MIT}{}
-	%\tableentry{}{Theoretical Physics Conference -- 1987}{spaceafter}
-	
-	%%------------------------------------------------
-	
-	%\tableentry{Posters}{Poster at the Meeting of the American}{}
-	%\tableentry{}{Physical Society -- 1985}{spaceafter}
-	
-	%------------------------------------------------
-	
-\end{supertabular}
-
-\end{paracol}
+%----------------------------------------------------------------------------------------
 
 
 %----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cvitem{}{Bouckaert, R., \textbf{Collienne, L.} \& Gavryushkin, A. (2022). Online Bayesian Analysis with BEAST2. \textit{BioRxiv}.}
+
+\cvitem{}{\textbf{Collienne, L.} (2021). Spaces of phylogenetic time trees (Thesis, Doctor of Philosophy). University of Otago. Retrieved from \url{http://hdl.handle.net/10523/12606}}
+
+\cvitem{}{\textbf{Collienne, L.}, Elmes, K., Fischer, M., Bryant, D. \& Gavryushkin, A. (2021). Discrete Coalescent Trees. \textit{Journal of Mathematical Biology 83.5, p. 60. issn: 1432-1416.}}
+
+\cvitem{}{\textbf{Collienne, L.} \& Gavryushkin, A. (2021). Computing nearest neighbour interchange distances between ranked phylogenetic trees. \textit{Journal of Mathematical Biology 82.1, p. 8. issn: 1432-1416}.}
+
+%----------------------------------------------------------------------------------------
+
+
 
 \end{document}
