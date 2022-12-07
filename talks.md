@@ -7,7 +7,7 @@ title: Talks
 
 ## 2022
 
-- Novamber: [Phylomania 2022](http://www.maths.utas.edu.au/phylomania/2022/), Hobart (AU)  
+- November: [Phylomania 2022](http://www.maths.utas.edu.au/phylomania/2022/), Hobart (AU)  
 Conference talk [Subtree Prune and Regraft on Ranked Trees](2022_phylomania.pdf) + [poster](2022_phylomania_poster.pdf)
 
 - January: [School of Mathematics and Statistics](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/), Christchurch (NZ)  
