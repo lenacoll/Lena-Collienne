@@ -7,7 +7,10 @@ title: Talks
 
 ## 2022
 
-- January: [School of Mathematics and Statistics](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/), Christchurch, NZ  
+- Novamber: [Phylomania 2022](http://www.maths.utas.edu.au/phylomania/2022/), Hobart (AU)  
+Conference talk [Subtree Prune and Regraft on Ranked Trees](2022_phylomania.pdf) + [poster](2022_phylomania_poster.pdf)
+
+- January: [School of Mathematics and Statistics](https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/), Christchurch (NZ)  
 Seminar talk [How to give a (good) talk](2022_how_to_talk_UC.pdf)
 
 ## 2021
