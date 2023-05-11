@@ -4,6 +4,12 @@ permalink: /publications/
 title: Publications
 ---
 
+## 2023
+[Estimating the mean in the space of ranked phylogenetic trees](https://doi.org/10.1101/2023.05.08.539790)<br>
+Lars Berling, Lena Collienne, and Alex Gavryushkin<br>
+*bioRxiv* 2023<br>
+
+
 ## 2022
 [Online Bayesian Analysis with BEAST 2](https://doi.org/10.1101/2022.05.03.490538)  
 Remco Bouckaert, Lena Collienne, and Alex Gavryushkin<br>
