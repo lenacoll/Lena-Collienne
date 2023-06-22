@@ -41,7 +41,7 @@ Conference talk [Online Phylogenetic Inference](2020_phyloNZ_Waiheke.pdf)
 ## 2019
 
 - October: Postgraduate Symposium, [Department of Computer Science](https://www.otago.ac.nz/computer-science/index.html), University of Otago (NZ)  
-Symposium talk [Online Algorithms in Computational Biology](2020_Postgrad_Symposium.pdf)
+Symposium talk [Online Algorithms in Computational Biology](2019_Postgrad_Symposium.pdf)
 
 - July: [Max Planck Institute for Mathematics in the Science](https://www.mis.mpg.de/nlalg/research.html), Leipzig (Germany)  
 Seminar talk [The Ranked Nearest Neighbour Interchange space of phylogenetic trees](2019_Leipzig_MPI.pdf)
