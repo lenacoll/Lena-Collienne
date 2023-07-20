@@ -5,6 +5,10 @@ title: Publications
 ---
 
 ## 2023
+[Ranked Subtree Prune and Regraft](https://doi.org/10.1101/2023.05.16.541039 )<br>
+Lena Collienne, Chris Whidden, and Alex Gavryushkin<br>
+*bioRxiv* 2023<br>
+
 [Estimating the mean in the space of ranked phylogenetic trees](https://doi.org/10.1101/2023.05.08.539790)<br>
 Lars Berling, Lena Collienne, and Alex Gavryushkin<br>
 *bioRxiv* 2023<br>
