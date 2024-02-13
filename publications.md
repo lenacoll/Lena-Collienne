@@ -4,11 +4,13 @@ permalink: /publications/
 title: Publications
 ---
 
-## 2023
-[Ranked Subtree Prune and Regraft](https://doi.org/10.1101/2023.05.16.541039 )<br>
+## 2024
+[Ranked Subtree Prune and Regraft](https://link.springer.com/article/10.1007/s11538-023-01244-2)<br>
 Lena Collienne, Chris Whidden, and Alex Gavryushkin<br>
-*bioRxiv* 2023<br>
+*Bulletin of Mathematical Biology* 2023<br>
 
+
+## 2023
 [Estimating the mean in the space of ranked phylogenetic trees](https://doi.org/10.1101/2023.05.08.539790)<br>
 Lars Berling, Lena Collienne, and Alex Gavryushkin<br>
 *bioRxiv* 2023<br>
