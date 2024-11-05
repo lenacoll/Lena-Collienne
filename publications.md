@@ -4,6 +4,11 @@ permalink: /publications/
 title: Publications
 ---
 
+
+[Phylogenetic tree instability after taxon addition: empirical frequency, predictability, and consequences for online inference](https://doi.org/10.1093/sysbio/syae059)<br>
+Lena Collienne, Mary Barker, Marc A Suchard, and Frederick "Erick" A Matsen<br>
+*Systematic Biology* 2024<br>
+
 [Ranked Subtree Prune and Regraft](https://link.springer.com/article/10.1007/s11538-023-01244-2)<br>
 Lena Collienne, Chris Whidden, and Alex Gavryushkin<br>
 *Bulletin of Mathematical Biology* 2024<br>
