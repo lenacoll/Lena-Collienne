@@ -13,7 +13,7 @@ title: Talks
 ## 2023
 
 - July: [SMB meeting 2023](https://2023.smb.org/), Columbus (OH, US) Invited  
-  minisymposium talk [Spaces of Discrete Time Trees](2023_SMB.pdf)
+  Invited symposium talk [Spaces of Discrete Time Trees](2023_SMB.pdf)
 
 ## 2022
 

@@ -13,9 +13,9 @@ Lena Collienne, Mary Barker, Marc A Suchard, and Frederick "Erick" A Matsen<br>
 Lena Collienne, Chris Whidden, and Alex Gavryushkin<br>
 *Bulletin of Mathematical Biology* 2024<br>
 
-[Estimating the mean in the space of ranked phylogenetic trees](https://doi.org/10.1101/2023.05.08.539790)<br>
+[Estimating the mean in the space of ranked phylogenetic trees](https://doi.org/10.1093/bioinformatics/btae514)<br>
 Lars Berling, Lena Collienne, and Alex Gavryushkin<br>
-*bioRxiv* 2023<br>
+*Bioinformatics* 2024<br>
 
 [Online Bayesian Analysis with BEAST 2](https://doi.org/10.1101/2022.05.03.490538)  
 Remco Bouckaert, Lena Collienne, and Alex Gavryushkin<br>
