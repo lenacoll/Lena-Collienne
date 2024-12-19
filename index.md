@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Lena Collienne](/assets/profile_picture.JPG){:height="200px"}
+![Lena Collienne](/assets/profile_2024.jpeg){:height="200px"}
 
 I’m currently Postdoctoral Research Fellow in the [Matsen Group](https://matsen.fredhutch.org/) at the [Fred Hutch Cancer Center](https://www.fredhutch.org/en.html).
 
