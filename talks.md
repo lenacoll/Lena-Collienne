@@ -4,6 +4,11 @@ permalink: /talks/
 title: Talks
 ---
 
+## 2025
+
+- July: Biomathematics Mini-Symposium, Greifswald (GER) Invited talk  
+  [Using Deep Learning to Guide Phylogenetic Tree Search](2025_greifswald.pdf)
+
 ## 2024
 
 - July: [Evolution 2024](https://www.evolutionmeetings.org/), Montreal (CA)  
