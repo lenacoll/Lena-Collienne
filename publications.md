@@ -6,13 +6,13 @@ title: Publications
 
 [Unifying phylogenetic traversal and deep learning to guide tree exploration](https://doi.org/10.64898/2026.01.14.699358)<br>
 Lena Collienne, Harry Richman, David H Rich, Mary Barker, Chris
-Jennings-Shaffer, and Frederick "Erick" A Matsen<br> _BioRxiv_ 2026<br>
+Jennings-Shaffer, and Frederick "Erick" A Matsen IV<br> _BioRxiv_ 2026<br>
 
 [Tree rearrangement graphs admit paths of decreasing Robinson-Foulds distance](http://arxiv.org/abs/2512.21397)<br>
-Lena Collienne and Frederick "Erick" A Matsen<br> _arXiv_ 2025<br>
+Lena Collienne and Frederick "Erick" A Matsen IV<br> _arXiv_ 2025<br>
 
 [Phylogenetic tree instability after taxon addition: empirical frequency, predictability, and consequences for online inference](https://doi.org/10.1093/sysbio/syae059)<br>
-Lena Collienne, Mary Barker, Marc A Suchard, and Frederick "Erick" A Matsen<br>
+Lena Collienne, Mary Barker, Marc A Suchard, and Frederick "Erick" A Matsen IV<br>
 _Systematic Biology_ 2024<br>
 
 [Ranked Subtree Prune and Regraft](https://link.springer.com/article/10.1007/s11538-023-01244-2)<br>
