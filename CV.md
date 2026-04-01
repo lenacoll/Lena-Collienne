@@ -6,7 +6,8 @@ title: CV
 
 ## Professional Experience
 
-03/2023 - now | **Postdoctoral Research Fellow**, [Matsen group](https://matsen.fredhutch.org/), Fred Hutch Cancer Center  
+04/2026 - present | **Lecturer**, [School of Computing](https://www.otago.ac.nz/school-of-computing), University of Otago  
+03/2023 - 03/2026 | **Postdoctoral Research Fellow**, [Matsen group](https://matsen.fredhutch.org/), Fred Hutch Cancer Center  
 01/2022 - 02/2023 | **Postdoctoral Research Fellow**, [BioDS lab](https://biods.org/), University of Otago/Canterbury
 
 
