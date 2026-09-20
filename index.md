@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Lena Collienne](/assets/profile_2026.jpg){:height="200px" style="display: block; margin: 0 auto;"}
+![Lena Collienne](/assets/profile_2026.jpg){:.profile}
 
 
 I am a lecturer at the [School of Computing](https://www.otago.ac.nz/school-of-computing) at the [University of Otago](https://www.otago.ac.nz) in Dunedin, New Zealand.
