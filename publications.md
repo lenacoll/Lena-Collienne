@@ -8,8 +8,8 @@ title: Publications
 Lena Collienne, Harry Richman, David H Rich, Mary Barker, Chris
 Jennings-Shaffer, and Frederick "Erick" A Matsen IV<br> _Systematic Biology_ 2026<br>
 
-[Tree rearrangement graphs admit paths of decreasing Robinson-Foulds distance](http://arxiv.org/abs/2512.21397)<br>
-Lena Collienne and Frederick "Erick" A Matsen IV<br> _arXiv_ 2025<br>
+[Tree rearrangement graphs admit paths of decreasing Robinson-Foulds distance](https://doi.org/10.1007/s11538-026-01748-7)<br>
+Lena Collienne and Frederick "Erick" A Matsen IV<br> Bulletin of Mathematical Biology 2026<br>
 
 [Phylogenetic tree instability after taxon addition: empirical frequency, predictability, and consequences for online inference](https://doi.org/10.1093/sysbio/syae059)<br>
 Lena Collienne, Mary Barker, Marc A Suchard, and Frederick "Erick" A Matsen IV<br>
