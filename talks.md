@@ -4,10 +4,16 @@ permalink: /talks/
 title: Talks
 ---
 
+## 2026
+- July: Uniting Phylogenetic Network Research (workshop), Lorentz Center (NED)  
+    Invited talk
+    [Deep learning for phylogenetics? Learning from classical algorithms](2026_lorentz.pdf)
+
 ## 2025
 
-- July: Biomathematics Mini-Symposium, Greifswald (GER) Invited talk  
-  [Using Deep Learning to Guide Phylogenetic Tree Search](2025_greifswald.pdf)
+- July: Biomathematics Mini-Symposium, Greifswald (GER)  
+    Invited talk
+    [Using Deep Learning to Guide Phylogenetic Tree Search](2025_greifswald.pdf)
 
 ## 2024
 
@@ -17,7 +23,7 @@ title: Talks
 
 ## 2023
 
-- July: [SMB meeting 2023](https://2023.smb.org/), Columbus (OH, US) Invited  
+- July: [SMB meeting 2023](https://2023.smb.org/), Columbus (OH, US)  
   Invited symposium talk [Spaces of Discrete Time Trees](2023_SMB.pdf)
 
 ## 2022
